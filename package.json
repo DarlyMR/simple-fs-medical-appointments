@@ -1,0 +1,26 @@
+{
+  "name": "simple-fs-medical-appointments",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "apps/frontend-medical-appointments",
+    "apps/strapi-medical-appoinments"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev --prefix apps/frontend-medical-appointments ",
+    "dev:backend": "npm run develop --prefix apps/strapi-medical-appointments",
+    "build:frontend": "npm --prefix apps/frontend-medical-appointments build",
+    "build:backend": "npm --prefix apps/strapi-medical-appointments build",
+    "start:backend": "npm --prefix apps/strapi-medical-appointments start",
+    "start:dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "install:all": "npm install && npm --prefix apps/frontend-medical-appointments install && npm --prefix apps/strapi-medical-appointments install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
