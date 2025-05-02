@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Dra. Sarah Johnson",
+    "specialty": "Cardióloga",
+    "description": "Especializada en salud cardiovascular con más de 15 años de experiencia en el tratamiento de afecciones cardíacas.",
+    "availability": "Lun-Vie",
+    "image": "https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Michael Chen",
+    "specialty": "Neurólogo",
+    "description": "Experto en trastornos neurológicos con un enfoque en enfoques de tratamiento innovadores.",
+    "availability": "Mar-Sáb",
+    "image": "https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Dra. Emily Rodriguez",
+    "specialty": "Pediatra",
+    "description": "Dedicada a brindar atención integral a niños desde recién nacidos hasta adolescentes.",
+    "availability": "Lun-Vie",
+    "image": "https://images.pexels.com/photos/5407206/pexels-photo-5407206.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Dr. James Wilson",
+    "specialty": "Cirujano Ortopédico",
+    "description": "Especializado en reemplazo de articulaciones y medicina deportiva con técnicas quirúrgicas avanzadas.",
+    "availability": "Mié-Dom",
+    "image": "https://images.pexels.com/photos/4225880/pexels-photo-4225880.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Dra. Maria Garcia",
+    "specialty": "Dermatóloga",
+    "description": "Experta en salud de la piel y dermatología cosmética con un enfoque holístico del tratamiento.",
+    "availability": "Lun-Jue",
+    "image": "https://images.pexels.com/photos/5407237/pexels-photo-5407237.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Dr. David Kim",
+    "specialty": "Medicina Familiar",
+    "description": "Brinda atención primaria integral para pacientes de todas las edades con un enfoque en la medicina preventiva.",
+    "availability": "Lun-Vie",
+    "image": "https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg"
+  }
+]
