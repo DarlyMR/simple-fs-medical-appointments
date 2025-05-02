@@ -1,5 +1,5 @@
-# Use the official Node.js 20 image as the base image
-FROM node:20-alpine AS builder
+# Use the official Node.js 22 image as the base image
+FROM node:22-alpine AS builder
 
 # Set the working directory in the container
 WORKDIR /app
@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Production stage
-FROM node:20-alpine AS production
+FROM node:22-alpine AS production
 
 # Set the working directory in the container
 WORKDIR /app
