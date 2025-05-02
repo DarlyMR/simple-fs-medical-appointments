@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Dra. Sarah Johnson",
+    "title": "Directora Médica",
+    "image": "https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg"
+  },
+  {
+    "name": "Dr. Michael Chen",
+    "title": "Director Médico",
+    "image": "https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg"
+  },
+  {
+    "name": "Dra. Emily Rodriguez",
+    "title": "Jefa de Atención al Paciente",
+    "image": "https://images.pexels.com/photos/5407206/pexels-photo-5407206.jpeg"
+  }
+]

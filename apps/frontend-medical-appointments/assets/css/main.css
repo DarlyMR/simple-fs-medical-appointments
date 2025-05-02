@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700&display=swap");
+
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+
+@layer base {
+  html {
+    font-family: "Inter", system-ui, sans-serif;
+    @apply antialiased text-gray-800;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat", sans-serif;
+    @apply font-semibold;
+  }
+
+  body {
+    @apply bg-gray-50 dark:bg-gray-900 dark:text-gray-200;
+  }
+}
+
+@layer components {
+  .btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s;
+    outline: none;
+    box-shadow: 0 0 0 2px transparent;
+  }
+
+  .btn-primary {
+    background-color: var(--tw-color-primary-600);
+    color: white;
+    transition: background-color 0.2s;
+  }
+
+  .btn-primary:hover {
+    background-color: var(--tw-color-primary-700);
+  }
+
+  .btn-primary:focus {
+    box-shadow: 0 0 0 2px var(--tw-color-primary-500);
+  }
+
+  .btn-secondary {
+    background-color: var(--tw-color-secondary-600);
+    color: white;
+    transition: background-color 0.2s;
+  }
+
+  .btn-secondary:hover {
+    background-color: var(--tw-color-secondary-700);
+  }
+
+  .btn-secondary:focus {
+    box-shadow: 0 0 0 2px var(--tw-color-secondary-500);
+  }
+
+  .btn-outline {
+    background-color: transparent;
+    border: 1px solid var(--tw-color-gray-300);
+    transition: background-color 0.2s;
+  }
+
+  .btn-outline:hover {
+    background-color: var(--tw-color-gray-100);
+  }
+
+  .btn-outline:focus {
+    box-shadow: 0 0 0 2px var(--tw-color-gray-400);
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+
+  .form-input {
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid var(--tw-color-gray-300);
+    padding: 0.5rem;
+    background-color: var(--tw-color-gray-700);
+    color: white;
+  }
+
+  .form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--tw-color-gray-700);
+  }
+
+  .container-narrow {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.625rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+
+  .badge-success {
+    background-color: var(--tw-color-green-100);
+    color: var(--tw-color-green-800);
+  }
+
+  .badge-warning {
+    background-color: var(--tw-color-yellow-100);
+    color: var(--tw-color-yellow-800);
+  }
+
+  .badge-danger {
+    background-color: var(--tw-color-red-100);
+    color: var(--tw-color-red-800);
+  }
+}
+
+/* Transitions */
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.3s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+/* Animations */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.5s ease-out;
+}

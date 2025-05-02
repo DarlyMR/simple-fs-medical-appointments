@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Atención Primaria",
+    "description": "Servicios integrales de atención primaria que incluyen chequeos de rutina, atención preventiva y manejo de enfermedades crónicas.",
+    "icon": "primary-care.svg"
+  },
+  {
+    "name": "Atención Especializada",
+    "description": "Atención experta en diversas especialidades, incluyendo cardiología, neurología, ortopedia y más.",
+    "icon": "specialized-care.svg"
+  },
+  {
+    "name": "Atención de Emergencia",
+    "description": "Servicios médicos de emergencia 24/7 con respuesta rápida y atención experta en traumatología.",
+    "icon": "emergency-care.svg"
+  },
+  {
+    "name": "Servicios de Diagnóstico",
+    "description": "Pruebas de diagnóstico avanzadas que incluyen servicios de laboratorio, imágenes y procedimientos especializados.",
+    "icon": "diagnostic-services.svg"
+  },
+  {
+    "name": "Atención Preventiva",
+    "description": "Servicios preventivos integrales que incluyen vacunas, exámenes de detección y programas de bienestar.",
+    "icon": "preventive-care.svg"
+  },
+  {
+    "name": "Rehabilitación",
+    "description": "Terapia física, terapia ocupacional y servicios de rehabilitación para una recuperación óptima.",
+    "icon": "rehabilitation.svg"
+  }
+]
