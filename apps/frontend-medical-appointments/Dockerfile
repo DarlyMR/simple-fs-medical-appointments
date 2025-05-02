@@ -7,8 +7,8 @@ WORKDIR /app
 # Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
 
-# Install dependencies
-RUN npm install
+# Install dependencies using npm ci for clean and consistent installs
+RUN npm ci --legacy-peer-deps
 
 # Copy the rest of the application code to the working directory
 COPY . .
@@ -26,7 +26,7 @@ WORKDIR /app
 COPY --from=builder /app/.output/public ./public
 COPY --from=builder /app/.output/server ./server
 COPY --from=builder /app/package*.json ./
-RUN npm install --only=production
+RUN npm install --only=production --legacy-peer-deps
 
 # Expose the port the app will run on
 EXPOSE 3000
