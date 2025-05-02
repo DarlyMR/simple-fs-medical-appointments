@@ -1,0 +1,10 @@
+node_modules
+.nuxt
+.output
+dist
+.env
+nuxt.config.ts
+Dockerfile
+.dockerignore
+README.md
+# Add any other files or directories you want to exclude
