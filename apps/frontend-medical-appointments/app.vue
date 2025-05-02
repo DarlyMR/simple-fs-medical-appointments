@@ -9,7 +9,7 @@
 <script setup lang="ts">
 useHead({
   titleTemplate: (titleChunk) => {
-    return titleChunk ? `${titleChunk} - MediCare` : 'MediCare - Medical Appointment System';
+    return titleChunk ? `${titleChunk} - MedicTest` : 'MedicTest - Medical Appointment System';
   },
 });
 </script>

@@ -4,25 +4,25 @@
         <!-- Hero section -->
         <section class="relative bg-gradient-to-br from-primary-900 to-primary-700 text-white py-20">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="md:flex md:items-center md:justify-between">
+            <div class="md:flex md:items-center md:justify-between gap-2">
               <div class="md:w-1/2 mb-10 md:mb-0">
                 <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                  Quality Healthcare When You Need It Most
+                  Atención médica de calidad cuando más lo necesite
                 </h1>
                 <p class="text-xl mb-8 text-primary-100">
-                  Book appointments with top doctors, manage your health records, and get personalized care from the comfort of your home.
+                  Reserve citas con los mejores médicos, administre sus registros de salud y obtenga atención personalizada de la comodidad de su hogar.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
                   <NuxtLink to="/portal/register" class="btn inline-block py-3 px-6 rounded-lg bg-white text-primary-700 font-semibold shadow-lg hover:bg-primary-50 transition-colors">
-                    Register Now
+                    Registrarse ahora
                   </NuxtLink>
                   <NuxtLink to="/contact" class="btn inline-block py-3 px-6 rounded-lg border-2 border-white text-white font-semibold hover:bg-white/10 transition-colors">
-                    Contact Us
+                    Contáctenos
                   </NuxtLink>
                 </div>
               </div>
               <div class="md:w-1/2">
-                <img src="https://images.pexels.com/photos/7579831/pexels-photo-7579831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                <img src="https://prodoctor.net/blog/wp-content/uploads/2016/10/Medico-cuidar-da-sua-imagem-e-fundamental.jpg" 
                      alt="Doctor with patient" 
                      class="w-full h-auto rounded-xl shadow-2xl" />
               </div>
@@ -35,10 +35,10 @@
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
               <h2 class="text-3xl font-bold text-gray-900 dark:text-white">
-                Our Services
+                Nuestros Servicios
               </h2>
               <p class="mt-4 text-xl text-gray-600 dark:text-gray-400">
-                Comprehensive healthcare services to meet your needs
+                Servicios de atención médica integrales para satisfacer sus necesidades
               </p>
             </div>
   
@@ -51,10 +51,10 @@
                   </svg>
                 </div>
                 <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                  Easy Appointment Scheduling
+                  Programación de citas fácil
                 </h3>
                 <p class="text-gray-600 dark:text-gray-400">
-                  Book appointments with your preferred doctors in just a few clicks. Choose from available time slots that fit your schedule.
+                  Reserve citas con sus médicos preferidos en solo unos pocos clics. Elija entre las ranuras de tiempo disponibles que se ajusten a su horario.
                 </p>
               </div>
   
@@ -66,10 +66,10 @@
                   </svg>
                 </div>
                 <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                  Top Medical Specialists
+                  Mejores especialistas médicos
                 </h3>
                 <p class="text-gray-600 dark:text-gray-400">
-                  Access a network of qualified medical specialists across various healthcare fields, each with years of experience.
+                  Acceda a una red de especialistas médicos calificados en varios campos de salud, cada uno con años de experiencia.
                 </p>
               </div>
   
@@ -81,10 +81,10 @@
                   </svg>
                 </div>
                 <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                  Medical Records Management
+                  Gestión de registros médicos
                 </h3>
                 <p class="text-gray-600 dark:text-gray-400">
-                  Securely store and access your medical history, prescriptions, and test results in one centralized location.
+                  Almacene y acceda de forma segura a su historial médico, recetas y resultados de la prueba en una ubicación centralizada.
                 </p>
               </div>
             </div>
@@ -96,10 +96,10 @@
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
               <h2 class="text-3xl font-bold text-gray-900 dark:text-white">
-                Our Medical Specialties
+                Nuestras especialidades médicas
               </h2>
               <p class="mt-4 text-xl text-gray-600 dark:text-gray-400">
-                Expert care for all your health needs
+                Cuidado experto para todas sus necesidades de salud
               </p>
             </div>
   
@@ -111,7 +111,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
                   </svg>
                 </div>
-                <h3 class="font-semibold text-gray-900 dark:text-white">Cardiology</h3>
+                <h3 class="font-semibold text-gray-900 dark:text-white">Cardiología</h3>
               </div>
   
               <!-- Specialty 2 -->
@@ -121,7 +121,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
                   </svg>
                 </div>
-                <h3 class="font-semibold text-gray-900 dark:text-white">Neurology</h3>
+                <h3 class="font-semibold text-gray-900 dark:text-white">Neurología</h3>
               </div>
   
               <!-- Specialty 3 -->
@@ -131,7 +131,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
                   </svg>
                 </div>
-                <h3 class="font-semibold text-gray-900 dark:text-white">Pediatrics</h3>
+                <h3 class="font-semibold text-gray-900 dark:text-white">Pediatría</h3>
               </div>
   
               <!-- Specialty 4 -->
@@ -141,7 +141,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
                   </svg>
                 </div>
-                <h3 class="font-semibold text-gray-900 dark:text-white">Orthopedics</h3>
+                <h3 class="font-semibold text-gray-900 dark:text-white">Ortopedía</h3>
               </div>
   
               <!-- Specialty 5 -->
@@ -152,7 +152,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                   </svg>
                 </div>
-                <h3 class="font-semibold text-gray-900 dark:text-white">Ophthalmology</h3>
+                <h3 class="font-semibold text-gray-900 dark:text-white">Oftalmología</h3>
               </div>
   
               <!-- Specialty 6 -->
@@ -162,7 +162,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v13m0-13V6a2 2 0 1 1 4 0v12m-4 0h4m-4 0h4m-8 0V6a2 2 0 1 0-4 0v12m4 0H4m4 0h4" />
                   </svg>
                 </div>
-                <h3 class="font-semibold text-gray-900 dark:text-white">Dermatology</h3>
+                <h3 class="font-semibold text-gray-900 dark:text-white">Dermatología</h3>
               </div>
   
               <!-- Specialty 7 -->
@@ -172,7 +172,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0 0 12 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52 2.83 2.83m-2.83-2.83a39.25 39.25 0 0 0-10.5 0m10.5 0a39.25 39.25 0 0 0-10.5 0m10.5 0-2.83 2.83m-6.34 9.17V15a2.25 2.25 0 1 1 4.5 0v2.25" />
                   </svg>
                 </div>
-                <h3 class="font-semibold text-gray-900 dark:text-white">ENT Specialists</h3>
+                <h3 class="font-semibold text-gray-900 dark:text-white">Especialistas de ENT</h3>
               </div>
   
               <!-- Specialty 8 -->
@@ -182,7 +182,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
                   </svg>
                 </div>
-                <h3 class="font-semibold text-gray-900 dark:text-white">General Medicine</h3>
+                <h3 class="font-semibold text-gray-900 dark:text-white">Medicina general</h3>
               </div>
             </div>
           </div>
@@ -193,10 +193,10 @@
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
               <h2 class="text-3xl font-bold text-gray-900 dark:text-white">
-                What Our Patients Say
+                Lo que dicen nuestras pacientes
               </h2>
               <p class="mt-4 text-xl text-gray-600 dark:text-gray-400">
-                Read testimonials from our satisfied patients
+                Leer testimonios de nuestros pacientes satisfechos
               </p>
             </div>
   
@@ -212,7 +212,7 @@
                   </div>
                 </div>
                 <p class="text-gray-600 dark:text-gray-400 mb-4">
-                  "The online appointment system is so convenient. I was able to book my appointment and manage my medical records without any hassle. The doctors are professional and caring."
+                  "El sistema de citas en línea es muy conveniente. Pude reservar mi cita y administrar mis registros médicos sin ninguna molestia. Los médicos son profesionales y cariñosos".
                 </p>
                 <div class="flex text-yellow-400">
                   <span>★</span>
@@ -234,7 +234,7 @@
                   </div>
                 </div>
                 <p class="text-gray-600 dark:text-gray-400 mb-4">
-                  "I've been using MediCare for my family's healthcare needs for the past year, and the service has been exceptional. The appointment reminders and easy rescheduling options are very helpful."
+                  "He estado usando Medictest para las necesidades de atención médica de mi familia durante el año pasado, y el servicio ha sido excepcional. Los recordatorios de citas y las opciones de reprogramación fáciles son muy útiles".
                 </p>
                 <div class="flex text-yellow-400">
                   <span>★</span>
@@ -256,7 +256,7 @@
                   </div>
                 </div>
                 <p class="text-gray-600 dark:text-gray-400 mb-4">
-                  "The doctors at MediCare are knowledgeable and take time to listen to my concerns. The portal makes it easy to access my medical history and communicate with my healthcare providers."
+                  "Los médicos de Medicest están bien informados y se toman el tiempo para escuchar mis preocupaciones. El portal facilita el acceso a mi historial médico y comunicarse con mis proveedores de atención médica".
                 </p>
                 <div class="flex text-yellow-400">
                   <span>★</span>
@@ -273,16 +273,16 @@
         <!-- CTA section -->
         <section class="py-16 bg-primary-800 text-white">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl font-bold mb-6">Ready to Get Started?</h2>
+            <h2 class="text-3xl font-bold mb-6">¿Listo para comenzar?</h2>
             <p class="text-xl mb-8 max-w-3xl mx-auto">
-              Join thousands of patients who trust MediCare for their healthcare needs. Register today for easy appointment scheduling and access to top medical professionals.
+              Únase a miles de pacientes que confían en la medición de sus necesidades de atención médica. Regístrese hoy para una fácil programación de citas y acceso a los principales profesionales médicos.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
               <NuxtLink to="/portal/register" class="btn inline-block py-3 px-6 rounded-lg bg-white text-primary-700 font-semibold shadow-lg hover:bg-primary-50 transition-colors">
-                Register Now
+                Registrarse ahora
               </NuxtLink>
               <NuxtLink to="/contact" class="btn inline-block py-3 px-6 rounded-lg border-2 border-white text-white font-semibold hover:bg-white/10 transition-colors">
-                Learn More
+                Obtenga más información
               </NuxtLink>
             </div>
           </div>

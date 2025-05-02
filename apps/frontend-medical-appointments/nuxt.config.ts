@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxt/ui',
     '@nuxtjs/color-mode',
+    '@pinia/nuxt',
   ],
   css: ['~/assets/css/main.css'],
   vite: {
@@ -21,4 +22,9 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+  dir: {
+    layouts: 'layouts',
+    pages: 'pages',
+    middleware: 'middleware',
+  }
 })
