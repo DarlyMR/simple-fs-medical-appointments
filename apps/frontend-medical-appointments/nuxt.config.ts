@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxtjs/color-mode',
     '@pinia/nuxt',
+    'dayjs-nuxt'
   ],
   css: ['~/assets/css/main.css'],
   vite: {
