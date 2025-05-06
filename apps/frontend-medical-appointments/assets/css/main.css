@@ -26,110 +26,47 @@
 
 @layer components {
   .btn {
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    font-weight: 500;
-    transition: all 0.2s;
-    outline: none;
-    box-shadow: 0 0 0 2px transparent;
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
   }
 
   .btn-primary {
-    background-color: var(--tw-color-primary-600);
-    color: white;
-    transition: background-color 0.2s;
-  }
-
-  .btn-primary:hover {
-    background-color: var(--tw-color-primary-700);
-  }
-
-  .btn-primary:focus {
-    box-shadow: 0 0 0 2px var(--tw-color-primary-500);
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500;
   }
 
   .btn-secondary {
-    background-color: var(--tw-color-secondary-600);
-    color: white;
-    transition: background-color 0.2s;
-  }
-
-  .btn-secondary:hover {
-    background-color: var(--tw-color-secondary-700);
-  }
-
-  .btn-secondary:focus {
-    box-shadow: 0 0 0 2px var(--tw-color-secondary-500);
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-secondary-600 text-white hover:bg-secondary-700 focus:ring-secondary-500;
   }
 
   .btn-outline {
-    background-color: transparent;
-    border: 1px solid var(--tw-color-gray-300);
-    transition: background-color 0.2s;
-  }
-
-  .btn-outline:hover {
-    background-color: var(--tw-color-gray-100);
-  }
-
-  .btn-outline:focus {
-    box-shadow: 0 0 0 2px var(--tw-color-gray-400);
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-transparent border border-gray-300 hover:bg-gray-100 focus:ring-gray-400 dark:border-gray-600 dark:hover:bg-gray-800;
   }
 
   .card {
-    background-color: white;
-    border-radius: 0.5rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    padding: 1.5rem;
-  }
-
-  .form-input {
-    width: 100%;
-    border-radius: 0.5rem;
-    border: 1px solid var(--tw-color-gray-300);
-    padding: 0.5rem;
-    background-color: var(--tw-color-gray-700);
-    color: white;
+    @apply bg-white dark:bg-gray-800 rounded-lg shadow-md p-6;
   }
 
   .form-label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-size: 0.875rem;
-    font-weight: 500;
-    color: var(--tw-color-gray-700);
+    @apply block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300;
   }
 
   .container-narrow {
-    max-width: 80rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 
   .badge {
-    display: inline-flex;
-    align-items: center;
-    padding: 0.25rem 0.625rem;
-    border-radius: 9999px;
-    font-size: 0.75rem;
-    font-weight: 500;
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
   }
 
   .badge-success {
-    background-color: var(--tw-color-green-100);
-    color: var(--tw-color-green-800);
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300;
   }
 
   .badge-warning {
-    background-color: var(--tw-color-yellow-100);
-    color: var(--tw-color-yellow-800);
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300;
   }
 
   .badge-danger {
-    background-color: var(--tw-color-red-100);
-    color: var(--tw-color-red-800);
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300;
   }
 }
 
