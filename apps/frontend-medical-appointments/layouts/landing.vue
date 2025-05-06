@@ -23,6 +23,9 @@
               <NuxtLink to="/about" class="text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 px-3 py-2 text-sm font-medium" exact-active-class="text-primary-600 dark:text-primary-400">
                 Sobre nosotros
               </NuxtLink>
+              <NuxtLink to="/blog" class="text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 px-3 py-2 text-sm font-medium" exact-active-class="text-primary-600 dark:text-primary-400">
+                Blog
+              </NuxtLink>
               <NuxtLink to="/contact" class="text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 px-3 py-2 text-sm font-medium" exact-active-class="text-primary-600 dark:text-primary-400">
                 Contacto
               </NuxtLink>
