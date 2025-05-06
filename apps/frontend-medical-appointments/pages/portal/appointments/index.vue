@@ -18,7 +18,7 @@
       <div class="mb-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <label for="status" class="form-label">Estado</label>
-          <select id="status" v-model="filters.status" :class="tw_form_input">
+          <select id="status" v-model="filters.status" class="c-form-input">
             <option value="">Todos</option>
             <option value="scheduled">Programadas</option>
             <option value="completed">Completadas</option>
@@ -28,7 +28,7 @@
 
         <div>
           <label for="doctor" class="form-label">Doctor</label>
-          <select id="doctor" v-model="filters.doctor" :class="tw_form_input">
+          <select id="doctor" v-model="filters.doctor" class="c-form-input">
             <option value="">Todos</option>
             <option v-for="doctor in doctors" :key="doctor.id" :value="doctor.id">
               Dr. {{ doctor.firstName }} {{ doctor.lastName }}
@@ -38,12 +38,12 @@
 
         <div>
           <label for="dateFrom" class="form-label">Desde</label>
-          <input type="date" id="dateFrom" v-model="filters.dateFrom" :class="tw_form_input" />
+          <input type="date" id="dateFrom" v-model="filters.dateFrom" class="c-form-input" />
         </div>
 
         <div>
           <label for="dateTo" class="form-label">Hasta</label>
-          <input type="date" id="dateTo" v-model="filters.dateTo" :class="tw_form_input" />
+          <input type="date" id="dateTo" v-model="filters.dateTo" class="c-form-input" />
         </div>
       </div>
 
@@ -241,7 +241,6 @@ useHead({
 });
 
 
-const tw_form_input = '@apply w-full rounded-lg border-gray-300 focus:border-primary-500 focus:ring focus:ring-primary-200 focus:ring-opacity-50 dark:bg-gray-700 dark:border-gray-600 dark:text-white;';
 
 const doctors: Array<Doctor> = [];
 </script>

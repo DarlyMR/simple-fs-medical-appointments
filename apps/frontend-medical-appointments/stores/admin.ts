@@ -69,7 +69,7 @@ export const useAdminStore = defineStore('admin', {
           
           return true;
         } else {
-          throw new Error('Invalid credentials');
+          throw new Error('Credenciales invalidas'); // Invalid credentials
         }
       } catch (error: any) {
         this.error = error.message || 'Failed to login';
